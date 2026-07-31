@@ -42,7 +42,7 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+![Alt text](<../os/image/Screenshot at 2026-07-28 06-05-30.png>)
 
 
 cat < file2
