@@ -313,7 +313,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![Alt text](image/img314.png)
 
 cat > file22
 ```
@@ -326,14 +326,14 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![Alt text](image/img327.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
 # OUTPUT
-
+![Alt text](image/img327.png)
 
 cat < urllist.txt
 ```
@@ -350,18 +350,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![Alt text](image/img351.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![Alt text](image/img356.png)
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-
+![Alt text](image/img361.png)
 
 mkdir backupdir
  
@@ -371,11 +371,11 @@ cd backupdir
  
 tar -cvf backup.tar *
 ## OUTPUT
-
+![Alt text](image/img372.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-
+![Alt text](image/img376.png)
 gzip backup.tar
 
 ls .gz
@@ -405,7 +405,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![Alt text](image/img406.png)
 
 cat < scriptest.sh 
 ```bash
@@ -447,7 +447,7 @@ chmod 777 scriptest.sh
  
 ls file1
 ## OUTPUT
-
+![Alt text](image/img448.png)
 echo $?
 ## OUTPUT 
 ./one
@@ -460,7 +460,7 @@ abcd
  
 echo $?
  ## OUTPUT
-
+![Alt text](image/img461.png)
 
  
 # mis-using string comparisons
@@ -492,14 +492,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
+![Alt text](image/img494.png)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![Alt text](image/img500.png)
 
 # check file ownership
 cat < psswdperm.sh 
