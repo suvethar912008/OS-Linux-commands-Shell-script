@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 =======
 # OS-Linux-commands-Shell-scripting
@@ -382,10 +382,8 @@ tar -xvf backup.tar
 gzip backup.tar
 
 ls .gz
-## OUTPUT
  
 gunzip backup.tar.gz
-## OUTPUT
 
  
 # Shell Script
@@ -394,8 +392,7 @@ echo '#!/bin/sh' > my-script.sh
 echo 'echo Hello World‘; exit 0 >> my-script.sh
 ```
 chmod 755 my-script.sh
-./my-script.sh
-## OUTPUT
+./my-script.shgig
 
  
 cat << stop > herecheck.txt
@@ -1103,4 +1100,4 @@ fi
 
 # RESULT:
 The Commands are executed successfully.
->>>>>>> ff91628 (hi)
+
