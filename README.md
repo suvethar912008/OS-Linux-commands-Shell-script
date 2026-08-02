@@ -616,7 +616,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
-
+![Alt text](image/img617.png)
 # check if a file
 cat > ifnested.sh 
 ```bash
@@ -665,7 +665,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
-
+![Alt text](image/img666.png)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -693,7 +693,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![Alt text](image/img694.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -709,7 +709,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![Alt text](image/img710.png)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -728,7 +728,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+
+![Alt text](image/img730.png) 
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -743,8 +745,10 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+## OUTPUT
  
- 
+![Alt text](image/img747.png) 
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -756,8 +760,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+$ ./untiltest.sh
+## OUTPUT
+
+![Alt text](image/img762.png) 
  
 cat forin1.sh 
 ```bash
