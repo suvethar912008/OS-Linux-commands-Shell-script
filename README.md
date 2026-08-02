@@ -42,20 +42,19 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![Alt text](<../os/image/Screenshot at 2026-07-28 06-05-30.png>)
-
+![Alt text](image/Screenshot at 2026-08-01 12-25-27.png)
 
 cat < file2
 ## OUTPUT
-![Alt text](../os/image/img48.png)
+
 
 # Comparing Files
 cmp file1 file2
-![Alt text](<../os/image/Screenshot at 2026-07-31 04-56-22.png>)## OUTPUT
+## OUTPUT
  
 comm file1 file2
  ## OUTPUT
-![Alt text](../os/image/img56.png)
+
  
 diff file1 file2
 ![Alt text](<../os/image/img 60.png>)## OUTPUT
