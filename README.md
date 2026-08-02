@@ -42,9 +42,9 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-![Alt text](image/Screenshot at 2026-08-01 12-25-27.png)
+![Alt text](image/img43.png)
 
-cat < file2
+cat < file2git
 ## OUTPUT
 
 
