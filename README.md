@@ -44,21 +44,22 @@ cat < file1
 ## OUTPUT
 ![Alt text](image/img43.png)
 
-cat < file2git
+cat < file2
 ## OUTPUT
-
+![Alt text](image/img47.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![Alt text](image/img52.png) 
+
 comm file1 file2
  ## OUTPUT
-
+![Alt text](image/img59.png)
  
 diff file1 file2
-![Alt text](<../os/image/img 60.png>)## OUTPUT
-
+## OUTPUT
+![Alt text](image/img55.png)
 
 #Filters
 
@@ -81,17 +82,17 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![Alt text](../os/image/img83.png)
+
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-![Alt text](<../os/image/Screenshot at 2026-07-31 05-11-26.png>)
+
 
 
 cut -d "|" -f 2 file22
-![Alt text](../os/image/img94.png)## OUTPUT
+## OUTPUT
 
 
 cat < newfile 
@@ -106,40 +107,40 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-![Alt text](../os/image/img109.png)
+
 
 
 grep hello newfile 
 ## OUTPUT
-![Alt text](../os/image/img113.png)
+
 
 
 
 grep -v hello newfile 
 ## OUTPUT
-![Alt text](../os/image/img119.png)
+
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-![Alt text](../os/image/img124.png)
+
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-![Alt text](../os/image/img130.png)
+
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
-![Alt text](../os/image/img136.png)
+
 
 
 grep -w -n world newfile 
 ## OUTPUT
-![Alt text](../os/image/img141.png)
+
 
 cat < newfile 
 ```
@@ -162,59 +163,54 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-![Alt text](../os/image/img164.png)
+
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-![Alt text](<../os/image/img 169.png>)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-![Alt text](../os/image/img174.png)
 
 
 
 egrep '(^hello)' newfile 
-##![Alt text](../os/image/img180.png) OUTPUT
+## OUTPUT
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-![Alt text](../os/image/img185.png)
 
 
 egrep '(World$)' newfile
 # OUTPUT
-![Alt text](../os/image/img190.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-![Alt text](../os/image/img194.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-![Alt text](../os/image/img199.png)
+
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-![Alt text](../os/image/img204.png)
+
 
 egrep 'Linux.*World' newfile 
-#![Alt text](../os/image/img208.png)# OUTPUT
+## OUTPUT
 
 
 egrep l{2} newfile
 ## OUTPUT
-![Alt text](../os/image/img212.png)
+
 
 
 egrep 's{1,2}' newfile
-![Alt text](../os/image/img217.png)## OUTPUT 
+## OUTPUT 
 
 
 cat > file23
@@ -233,81 +229,78 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-![Alt text](../os/image/img235.png)
+
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-![Alt text](../os/image/img240.png)
+
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-![Alt text](../os/image/img245.png)
+
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-![Alt text](../os/image/img250.png)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-![Alt text](../os/image/img255.png)
+
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-![Alt text](../os/image/img260.png)
+
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-![Alt text](../os/image/img265.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-![Alt text](../os/image/img271.png)
+
 
 
 seq 10 
 ## OUTPUT
-![Alt text](../os/image/img176.png)
+
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-![Alt text](../os/image/img180.png)
+
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-![Alt text](../os/image/img185.png)
 
 
 seq 3 | sed '2a hello'
-![Alt text](../os/image/img291.png)## OUTPUT
+## OUTPUT
 
 
 
 seq 2 | sed '2i hello'
-#![Alt text](../os/image/img296.png)# OUTPUT
+## OUTPUT
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
-![Alt text](../os/image/img300.png)
+
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-![Alt text](../os/image/img304.png)
+
 
 
 sed -n '2,4{s/$/*/;p}' file23
 ## OUTpUT
-![Alt text](../os/image/img309.png)
+
 
 #Sorting File content
 cat > file21
@@ -320,7 +313,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-![Alt text](../os/image/img322.png)
+
 
 cat > file22
 ```
@@ -333,14 +326,13 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-![Alt text](../os/image/img335.png)
+
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
 # OUTPUT
-![Alt text](../os/image/img342.png)
 
 
 cat < urllist.txt
